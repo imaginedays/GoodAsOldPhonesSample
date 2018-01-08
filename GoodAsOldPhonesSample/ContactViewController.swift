@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  ContactViewController.swift
 //  GoodAsOldPhonesSample
 //
 //  Created by imaginedays on 08/01/2018.
@@ -8,11 +8,19 @@
 
 import UIKit
 
-class SecondViewController: UIViewController {
+class ContactViewController: UIViewController {
 
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        view.addSubview(scrollView)
+    }
+    
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        scrollView.contentSize = CGSize(width: 375, height: 800)
     }
 
     override func didReceiveMemoryWarning() {

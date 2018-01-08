@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		42130FB220030FD5008BE104 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FB120030FD5008BE104 /* AppDelegate.swift */; };
-		42130FB420030FD5008BE104 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FB320030FD5008BE104 /* FirstViewController.swift */; };
-		42130FB620030FD5008BE104 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FB520030FD5008BE104 /* SecondViewController.swift */; };
+		42130FB420030FD5008BE104 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FB320030FD5008BE104 /* ProductViewController.swift */; };
+		42130FB620030FD5008BE104 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FB520030FD5008BE104 /* ContactViewController.swift */; };
 		42130FB920030FD5008BE104 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42130FB720030FD5008BE104 /* Main.storyboard */; };
 		42130FBB20030FD5008BE104 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42130FBA20030FD5008BE104 /* Assets.xcassets */; };
 		42130FBE20030FD5008BE104 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42130FBC20030FD5008BE104 /* LaunchScreen.storyboard */; };
+		42130FC62003131A008BE104 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FC52003131A008BE104 /* Product.swift */; };
+		42130FC82003274F008BE104 /* ProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42130FC72003274F008BE104 /* ProductsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		42130FAE20030FD4008BE104 /* GoodAsOldPhonesSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAsOldPhonesSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42130FB120030FD5008BE104 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		42130FB320030FD5008BE104 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		42130FB520030FD5008BE104 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		42130FB320030FD5008BE104 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		42130FB520030FD5008BE104 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
 		42130FB820030FD5008BE104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42130FBA20030FD5008BE104 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42130FBD20030FD5008BE104 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42130FBF20030FD5008BE104 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42130FC52003131A008BE104 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		42130FC72003274F008BE104 /* ProductsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				42130FB120030FD5008BE104 /* AppDelegate.swift */,
-				42130FB320030FD5008BE104 /* FirstViewController.swift */,
-				42130FB520030FD5008BE104 /* SecondViewController.swift */,
+				42130FB320030FD5008BE104 /* ProductViewController.swift */,
+				42130FB520030FD5008BE104 /* ContactViewController.swift */,
 				42130FB720030FD5008BE104 /* Main.storyboard */,
 				42130FBA20030FD5008BE104 /* Assets.xcassets */,
 				42130FBC20030FD5008BE104 /* LaunchScreen.storyboard */,
 				42130FBF20030FD5008BE104 /* Info.plist */,
+				42130FC52003131A008BE104 /* Product.swift */,
+				42130FC72003274F008BE104 /* ProductsTableViewController.swift */,
 			);
 			path = GoodAsOldPhonesSample;
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42130FB620030FD5008BE104 /* SecondViewController.swift in Sources */,
+				42130FB620030FD5008BE104 /* ContactViewController.swift in Sources */,
+				42130FC62003131A008BE104 /* Product.swift in Sources */,
 				42130FB220030FD5008BE104 /* AppDelegate.swift in Sources */,
-				42130FB420030FD5008BE104 /* FirstViewController.swift in Sources */,
+				42130FB420030FD5008BE104 /* ProductViewController.swift in Sources */,
+				42130FC82003274F008BE104 /* ProductsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
